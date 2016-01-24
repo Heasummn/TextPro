@@ -1,0 +1,40 @@
+//TESTING ADDING WORDS (addWord, insert)//
+
+** Test #1: Adding first word to dictionary...
+addWord returned true.
+
+** Test #2: Adding two more words and testing size...
+Size is 3.
+
+** Test #3: Adding more words to dictionary trie (testing size after insertions)...
+Dict size is 24.
+
+** Test #4: Adding duplicate word...
+Adding duplicate word returned false.
+
+** Test #5: Checking size after try to add duplicate word...
+Dict size is 24.
+
+
+//TESTING FOR WORDS IN/OUT OF DICTIONARY (isWord)//
+
+** Test #6: Checking empty string...
+Empty string in dictionary: false.
+
+** Test #7: Checking for word in dictionary...
+'doggoes' in dictionary: true.
+
+** Test #8: Testing word only missing last letter...
+'downhil' in dictionary: false.
+
+** Test #9: Testing word with one extra letter...
+'downhille' in dictionary: false.
+
+** Test #10: Testing for more words in dictionary...
+'test' in dictionary: true. 'testcases' in dictionary: true. 'testone' in dictionary: true.
+
+** Test #11: Testing word with capital letters...
+'TeSt' in dictionary: true.
+
+
+//TESTING AUTO COMPLETE FUNCTIONALITY (predictCompletions)//Error during runtime: java.lang.NullPointerException
